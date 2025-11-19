@@ -1,0 +1,41 @@
+name: Generate Datas
+
+on:
+  # execute every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+  # allow manual run from the Actions tab
+  workflow_dispatch:
+
+# allow the action to push to the repo (needed for GitHub Pages deploy)
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Jobs to update datas
+    runs-on: ubuntu-latest
+
+    steps:
+      # (Optional) checkout, not strictly needed for snk, but harmless
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Snake Animation – generate SVG(s)
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          # your GitHub username
+          github_user_name: Tommy4050
+          # files to generate
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      # Deploy the generated SVG to the "output" branch
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
