@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+![Snake animation](https://github.com/Tommy4050/Tommy4050/blob/output/github-contribution-grid-snake.svg)
 <!--
 **Tommy4050/Tommy4050** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
