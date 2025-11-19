@@ -1,4 +1,24 @@
 ## Hi there 👋
+---
+
+### 📈 My GitHub History
+
+<p align="center">
+  <!-- Main stats card -->
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Tommy4050&show_icons=true&theme=radical&hide=issues&include_all_commits=true"
+    alt="Tommy4050's GitHub stats"
+  />
+</p>
+
+<p align="center">
+  <!-- Top languages card -->
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tommy4050&layout=compact&theme=transparent"
+    alt="Top languages"
+  />
+</p>
+
 
 ![Snake animation](https://github.com/Tommy4050/Tommy4050/blob/output/github-contribution-grid-snake.svg)
 <!--
