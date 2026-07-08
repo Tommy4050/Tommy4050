@@ -1,5 +1,15 @@
-## Hi there 👋
+## Hi, I'm Tamás 👋
 ---
+
+I'm a Computer Science student at the University of Szeged, interested in full-stack web development, backend development, and building practical applications.
+
+## 🧰 Technologies I use
+
+<p>
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript%20%7C%20TypeScript-blue" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20PHP%20%7C%20Java%20Spring-green" />
+  <img src="https://img.shields.io/badge/Databases-MySQL%20%7C%20PostgreSQL%20%7C%20MongoDB-orange" />
+</p>
 
 ## 📊 My GitHub Stats
 
